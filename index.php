@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Estudio Colectivo de Arquitectura</title>
-		<link rel="icon" type="image/png/" href="/eco2/images/eco-ico.png" />
+		<link rel="icon" type="image/png/" href="/eco/images/eco-ico.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
@@ -22,7 +22,7 @@
 							<h1></h1>
 							<br/>
 							<p>
-								<a href="/eco2/proyectos/portafolio.php"><img  style="margin-left:-10px;" alt="ECO"	src="images/eco.png" >
+								<a href="/eco/proyectos/portafolio.php"><img  style="margin-left:-10px;" alt="ECO"	src="images/eco.png" >
 								<h2 >Entrar<h2/></a>
 							</p>
 						</header>
@@ -50,6 +50,6 @@
 				}
 			</script>
 
-			<a href="/eco2/proyectos/portafolio.php"></a>
+			<a href="/eco/proyectos/portafolio.php"></a>
 	</body>
 </html>
