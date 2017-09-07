@@ -14,11 +14,6 @@
 	opacity:100;
 }
 
-.texto{
-    <bottom: Contactos>
-
-    }
-
 .azul{
 	border:1px solid #353131;
 	background-color:#37425a;
@@ -35,13 +30,32 @@
     border:none !important;	
     padding:0;
 	font-weight: normal !important;
-	margin-right:50px;
+	margin-right:1em;
 	font-size:17px;
 	color:white !important;
 	text-decoration: none !important;
     float:right;
     display:inline-block;
+    vertical-align:super;
 }
 .ui-content{
 	padding:3em !important;	
+}
+
+@media (min-width:1099px){
+.txt_top{
+	/*font-family: "Times New Roman", Georgia, Serif;*/
+	color:black !important;
+    background:none;
+    border:none !important;	
+    padding:0;
+	font-weight: normal !important;
+	margin-right:2em;
+	font-size:17px;
+	color:white !important;
+	text-decoration: none !important;
+    float:right;
+    display:inline-block;
+    vertical-align:super;
+}
 }

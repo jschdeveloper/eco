@@ -53,22 +53,28 @@
 </head>
 
 <body>
-	<div class="barracentro azul">
-	
-		<a class="txt_top" target="_blank" href="https://facebook.com/estudiocolectivodearquitectura/">
-			<img alt="ECO" src="assets/imgs/fbicon.png" >
-		</a>
-		<a class="txt_top" target="_blank" href="https://www.instagram.com/eco.arq/">
-			<img alt="ECO" src="assets/imgs/instaicon.png" >
-		</a>
-		<a class="txt_top" target="_blank" href="#">
-			<img alt="ECO" src="assets/imgs/twicon.png" >
-		</a>
-		<a class="txt_top" style="margin-top:50% !important" href="#popup-contacto" data-rel="popup" data-position-to="window" data-transition="fade">Contacto</a>
-		<a class="txt_top" href="#popup-eco" data-rel="popup" data-position-to="window" data-transition="fade">ECO</a>
-		<a href="#" onclick="backHome('./portafolio.php');"> <img  style="margin-left:10px;" alt="ECO" src="/eco2/images/eco-ico-white.png" ><a/> 
-		
-	</div>
+	 <div class="barracentro azul">
+         <a class="txt_top" target="_blank" href="https://facebook.com/estudiocolectivodearquitectura/">
+         <img alt="Facebook" src="assets/imgs/fbicon.png" >
+         </a>
+         <a class="txt_top" target="_blank" href="https://www.instagram.com/eco.arq/">
+         <img alt="Instagram" src="assets/imgs/instaicon.png" >
+         </a>
+         <a class="txt_top" target="_blank" href="#">
+         <img alt="Twitter" src="assets/imgs/twicon.png" >
+         </a>
+         <a class="txt_top" href="#popup-contacto" data-rel="popup" data-position-to="window" data-transition="fade">
+         <img alt="Contacto" src="assets/imgs/mail.png" >
+         </a>
+         <a class="txt_top" href="./ventas.php" target="_self" data-rel="popup" data-position-to="window" data-transition="fade">
+         <img alt="Ventas" src="assets/imgs/sell.png" >
+         </a>
+         <a class="txt_top"  href="#popup-eco" data-rel="popup" data-position-to="window" data-transition="fade">
+         <img alt="Información" src="assets/imgs/info.png" >
+         </a>
+         <a href="#" onclick="backHome('..');"> <img  style="margin-left:10px;" alt="ECO" src="/eco2/images/eco-ico-white.png" >
+         <a/>
+      </div>
 
   <div class="container">
   
