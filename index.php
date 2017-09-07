@@ -22,8 +22,8 @@
 							<h1></h1>
 							<br/>
 							<p>
-								<a href="/eco/proyectos/portafolio.php"><img  style="margin-left:-10px;" alt="ECO"	src="images/eco.png" >
-								<h2 >Entrar<h2/></a>
+								<a href="/eco/proyectos/portafolio.php"><img  style="margin-left:-10px;" alt="ECO"	src="images/eco-white.png" >
+								<h2 >Estudio Colectivo de Arquitectura<h2/></a>
 							</p>
 						</header>
 						
