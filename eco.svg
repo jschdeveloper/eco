@@ -1,0 +1,34 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+
+  <metadata transform="matrix(0.016052659407833403,0,0,0.016052659407833403,0,0) " id="svg_35">image/svg+xml</metadata>
+  <g id="svg_37">
+   <g transform="matrix(0.016052659407833403,0,0,0.016052659407833403,0,0) " display="inline" id="svg_34"/>
+   <g transform="matrix(0.016052659407833403,0,0,0.016052659407833403,0,0) " display="inline" id="svg_20">
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" id="svg_33" d="m17913.390563,12463.193675l93.4455,54.24052l-93.67011,53.48837l0.22461,-107.72889z"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" d="m17913.390563,12346.036285l93.4455,54.24052l-93.67011,53.48837l0.22461,-107.72889z" id="svg_32"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" id="svg_31" d="m18010.611453,12632.143755l-93.4455,-54.24052l93.67011,-53.48837l-0.22461,107.72889z"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" d="m18010.611453,12393.156015l-93.4455,-54.24052l93.67011,-53.48837l-0.22461,107.72889z" id="svg_30"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" id="svg_29" d="m18018.405823,12394.166165l93.4455,-54.24052l-93.67011,-53.48837l0.22461,107.72889z"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" d="m18113.141932,12226.838275l-93.4455,54.24052l93.67011,53.48837l-0.22461,-107.72889z" id="svg_28"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" id="svg_27" d="m18120.936302,12226.838275l93.4455,54.24052l-93.67011,53.48837l0.22461,-107.72889z"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" d="m18217.692722,12287.447425l-93.4455,54.24052l93.67011,53.48837l-0.22461,-107.72889z" id="svg_26"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" id="svg_25" d="m18217.692722,12521.864095l-93.4455,54.24052l93.67011,53.48837l-0.22461,-107.72889z"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" d="m18016.915972,12631.194865l93.4455,-54.24052l-93.67011,-53.48837l0.22461,107.72889z" id="svg_24"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" id="svg_23" d="m18111.442872,12583.422125l-93.4455,54.24052l93.67011,53.48837l-0.22461,-107.72889z"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" d="m18121.206783,12583.422125l93.4455,54.24052l-93.67011,53.48837l0.22461,-107.72889z" id="svg_22"/>
+    <path fill="#ffffff" fill-rule="evenodd" stroke-width="1px" d="m18011.621602,12513.364175l-93.4455,-54.24052l93.67011,-53.48837l-0.22461,107.72889z" id="svg_21"/>
+   </g>
+  </g>
+ </g>
+</svg>

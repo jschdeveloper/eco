@@ -1,0 +1,47 @@
+.barracentro {
+	position:fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5ex;
+	float: left;
+	z-index: 10000;
+	width:98%;
+	height:1.5%;
+	top: 0px;
+	left:0px;
+	text-align: left;
+    vertical-align: middle;
+    padding:19px;
+	opacity:100;
+}
+
+.texto{
+    <bottom: Contactos>
+
+    }
+
+.azul{
+	border:1px solid #353131;
+	background-color:#37425a;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b0038', endColorstr='#1b0038');
+	background: -webkit-gradient(linear, left top, left bottom, from(#252B38), to(#3F4046));
+	background: -moz-linear-gradient(top, #1b0038, #1b0038);
+	color: #fff;
+}
+
+.txt_top{
+	/*font-family: "Times New Roman", Georgia, Serif;*/
+	color:white !important;
+    background:none;
+    border:none !important;	
+    padding:0;
+	font-weight: normal !important;
+	margin-right:50px;
+	font-size:17px;
+	color:white !important;
+	text-decoration: none !important;
+    float:right;
+    display:inline-block;
+}
+.ui-content{
+	padding:3em !important;	
+}
