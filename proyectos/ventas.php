@@ -27,7 +27,7 @@
 
       <script type="text/javascript" language="javascript">
          function editar(id) {
-         	location.href = "ventas.php?proyecto=" + id;
+         	location.href = "proyectos2.php?proyecto=" + id;
          };
          function backHome(pag) {
          	location.href = pag;
@@ -41,7 +41,7 @@
       <header></header>
 	  <body>
       <div class="barracentro azul" style="vertical-align: middle;position:relative;" >
-       <a href="#" onclick="backHome('..');"> <img  style="vertical-align: middle;position:relative;" alt="ECO" src="/eco/images/eco-ico-white.png" />
+       <a href="portafolio.php" > <img  style="vertical-align: middle;position:relative;" alt="ECO" src="/eco/images/eco-ico-white.png" />
          
 
          <a class="txt_top" target="_blank" href="https://facebook.com/estudiocolectivodearquitectura/">
