@@ -23,39 +23,39 @@
       <script type="text/javascript" src="js/jquery.googlemap.js"></script>
       <script type="text/javascript" language="javascript">
 
-      function popupOpenClose(popup) {
-	
-	/* Add div inside popup for layout if one doesn't exist */
-	if ($(".wrapper").length == 0){
-		$(popup).wrapInner("<div class='wrapper'></div>");
-	}
-	
-	/* Open popup */
-	$(popup).show();
+			      function popupOpenClose(popup) {
+				
+				/* Add div inside popup for layout if one doesn't exist */
+				if ($(".wrapper").length == 0){
+					$(popup).wrapInner("<div class='wrapper'></div>");
+				}
+				
+				/* Open popup */
+				$(popup).show();
 
-	/* Close popup if user clicks on background */
-	$(popup).click(function(e) {
-		if ( e.target == this ) {
-			if ($(popup).is(':visible')) {
-				$(popup).hide();
+				/* Close popup if user clicks on background */
+				$(popup).click(function(e) {
+					if ( e.target == this ) {
+						if ($(popup).is(':visible')) {
+							$(popup).hide();
+						}
+					}
+				});
+
+				/* Close popup and remove errors if user clicks on cancel or close buttons */
+				$(popup).find("button[name=close]").on("click", function() {
+					if ($(".formElementError").is(':visible')) {
+						$(".formElementError").remove();
+					}
+					$(popup).hide();
+				});
 			}
-		}
-	});
 
-	/* Close popup and remove errors if user clicks on cancel or close buttons */
-	$(popup).find("button[name=close]").on("click", function() {
-		if ($(".formElementError").is(':visible')) {
-			$(".formElementError").remove();
-		}
-		$(popup).hide();
-	});
-}
-
-$(document).ready(function () {
-	$("[data-js=open]").on("click", function() {
-		popupOpenClose($(".popup"));
-	});
-});
+			$(document).ready(function () {
+				$("[data-js=open]").on("click", function() {
+					popupOpenClose($(".popup"));
+				});
+			});
       </script>
 
       <script type="text/javascript" language="javascript">
@@ -95,7 +95,7 @@ $(document).ready(function () {
          <a class="txt_top" href="./ventas.php" target="_self" data-rel="popup" data-position-to="window" data-transition="fade">
          <img alt="Ventas" src="assets/imgs/sell.png" >
          </a>
-         <a class="txt_top"  href="#popup-eco" data-rel="popup" data-position-to="window" data-transition="fade">
+         <a class="txt_top"  data-js="open" data-value="popup-map" data-position-to="window" data-transition="fade">
          <img alt="Información" src="assets/imgs/info.png" >
          </a>
         
@@ -150,74 +150,33 @@ $(document).ready(function () {
 	
 </div>
 
-<div class="popup centrado">
-		<div>
-            <h1>Nosotros</h1>
-         </div>
-         
-               Scotiabank fue fundado en 1832 en Halifax, Nueva Escocia, 
-               y es una de las principales instituciones financieras de Norteamerica. 
-               Scotiabank es el banco canadiense con mayor presencia internacional y
-               brinda servicios a cerca de 19millones de clientes en más de 55 países 
-               del mundo, en América, El Caribe, Europa y Asia.
-           
-            <h2 >Emmanuel Garrido Garcia - Arquitecto</h2>
-         
-	<button  name="close">Cerrar</button>
-</div>
+		<div class="popup">
+				<div>
+		            <h1>Nosotros</h1>
+		         </div>
+		         
+		               Scotiabank fue fundado en 1832 en Halifax, Nueva Escocia, 
+		               y es una de las principales instituciones financieras de Norteamerica. 
+		               Scotiabank es el banco canadiense con mayor presencia internacional y
+		               brinda servicios a cerca de 19millones de clientes en más de 55 países 
+		               del mundo, en América, El Caribe, Europa y Asia.
+		           
+		            <h2 >Emmanuel Garrido Garcia - Arquitecto</h2>
+		         
+			<button class"cerrar" name="close">x</button>
+		</div>
 
-      <div data-role="popup" id="popup-contacto">
-         <div data-role="header">
-            <a href="#" class="" data-rel="back">X</a>
-            <h1 style="font-size: 180% !important; padding: .3em 0 !important">Contacto</h1>
-         </div>
-         <div data-role="main" class="ui-content" style="width:600px;margin-top: -5%;">
-            <h2 style="text-align: -webkit-left !important">Dirección</h2>
-            <h2 style="font-size: 120%">Santos Degollado no.3 int. 9 Col. Centro Xalapa</h2>
-            <br/>
-            <h2 style="text-align: -webkit-left !important">Correos</h2>
-            <h2 style="font-size: 120%;text-align: -webkit-left !important">evalderrabano@eco.com</h2>
-            <h2 style="font-size: 120%;text-align: -webkit-left !important">egarrido@eco.com</h2>
-            <br/>
-            <div id="map" style="width: 100%; height: 300px;"></div>
-            <script type="text/javascript">
-               $(function() {
-               	$("#map").googleMap({
-               		zoom: 20
-               	});
-               	$("#map").addMarker({	
-               		address: "Santos Degollado no.3 int. 9 Col. Centro Xalapa", // Postale Address
-               		url: '',
-               		icon: '../images/eco-ico.png', // Icon URL,
-               		text:  '<b>ECO</b> Estudio Colectivo de Arquitectos.' // HTML content
-               
-               	});
-               })
-            </script>
-            </br>
-         </div>
-      </div>
-      <div data-role="popup" id="popup-eco">
-         <div data-role="header">
-            <a href="#" class="" data-rel="back">X</a>
-            <h1 style="font-size: 180% !important; padding: .4em 0 !important">Nosotros</h1>
-         </div>
-         <div data-role="main" class="ui-content" style="width:600px;margin-top: -5%;">
-            <h2 style="text-align: -webkit-center !important">Descripción</h2>
-            <p style="text-align: justify;" >
-               Scotiabank fue fundado en 1832 en Halifax, Nueva Escocia, 
-               y es una de las principales instituciones financieras de Norteamerica. 
-               Scotiabank es el banco canadiense con mayor presencia internacional y
-               brinda servicios a cerca de 19millones de clientes en más de 55 países 
-               del mundo, en América, El Caribe, Europa y Asia.
-            </p>
-            <h2 style="text-align: -webkit-center !important">Equipo ECO</h2>
-            <h2 style="font-size: 120%;text-align: -webkit-center !important">Eder Valderrabano Contreras - Director General</h2>
-            <h2 style="font-size: 120%;text-align: -webkit-center !important">Emmanuel Garrido Garcia - Arquitecto</h2>
-         </div>
-         <div data-role="footer">
-            <h1>Estudio Colectivo de Arquitectos</h1>
-         </div>
-      </div>
+		<div class="popup">
+				<div>
+		            <h1>Mapa</h1>
+		         </div>
+		         
+		               XXX
+		         
+			<button class"cerrar" name="close">x</button>
+		</div>
+
+
+
    </body>
 </html>

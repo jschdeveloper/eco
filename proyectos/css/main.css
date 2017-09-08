@@ -702,6 +702,7 @@ button {
     }
 }
 
+
 .popup {
     background: #fff;
     position: fixed;
@@ -709,8 +710,8 @@ button {
     z-index: 5000;
     height: 50%;
     width: 50%;
-    left: 0;
-    top: 0;
+  top: 25%; 
+  left: 25%;
 
     > div {
         border-radius: 10px;
@@ -729,15 +730,16 @@ button {
         border: 5px solid #9AD3DE;
     }
 
-   .centrado {
-  position: absolute;
- 
+   
 }
-}
+ .cerrar{
+        width: 200px !important;
+        height: 100px !important;
+    }
 
 @media (max-width:550px){
    .popup {
-    background: #fff;
+    background: #000;
     position: fixed;
     display: none;
     z-index: 5000;
