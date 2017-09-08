@@ -21,42 +21,7 @@
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
       <script type="text/javascript" src="//www.google.fr/jsapi"></script>
       <script type="text/javascript" src="js/jquery.googlemap.js"></script>
-      <script type="text/javascript" language="javascript">
-
-			      function popupOpenClose(popup) {
-				
-				/* Add div inside popup for layout if one doesn't exist */
-				if ($(".wrapper").length == 0){
-					$(popup).wrapInner("<div class='wrapper'></div>");
-				}
-				
-				/* Open popup */
-				$(popup).show();
-
-				/* Close popup if user clicks on background */
-				$(popup).click(function(e) {
-					if ( e.target == this ) {
-						if ($(popup).is(':visible')) {
-							$(popup).hide();
-						}
-					}
-				});
-
-				/* Close popup and remove errors if user clicks on cancel or close buttons */
-				$(popup).find("button[name=close]").on("click", function() {
-					if ($(".formElementError").is(':visible')) {
-						$(".formElementError").remove();
-					}
-					$(popup).hide();
-				});
-			}
-
-			$(document).ready(function () {
-				$("[data-js=open]").on("click", function() {
-					popupOpenClose($(".popup"));
-				});
-			});
-      </script>
+  
 
       <script type="text/javascript" language="javascript">
          function editar(id) {
@@ -71,11 +36,8 @@
          
       </script>
    </head>
-  <?php
-     error_reporting(-1);
-?>
-   <body>
       <header></header>
+	  <body>
       <div class="barracentro azul">
        <a href="#" onclick="backHome('..');"> <img  style="margin-left:10px;" alt="ECO" src="/eco/images/eco-ico-white.png" />
          
@@ -89,13 +51,13 @@
          <a class="txt_top" target="_blank" href="#">
          <img alt="Twitter" src="assets/imgs/twicon.png" >
          </a>
-         <a class="txt_top" data-js="open"  data-rel="popup" data-position-to="window" data-transition="fade">
+         <a class="txt_top" href="./nosotros.php" target="_self">
          <img alt="Contacto" src="assets/imgs/mail.png" >
          </a>
-         <a class="txt_top" href="./ventas.php" target="_self" data-rel="popup" data-position-to="window" data-transition="fade">
+         <a class="txt_top" href="./ventas.php" target="_self" >
          <img alt="Ventas" src="assets/imgs/sell.png" >
          </a>
-         <a class="txt_top"  data-js="open" data-value="popup-map" data-position-to="window" data-transition="fade">
+         <a class="txt_top"   href="./contacto.php" target="_self">
          <img alt="Información" src="assets/imgs/info.png" >
          </a>
         
@@ -150,32 +112,7 @@
 	
 </div>
 
-		<div class="popup">
-				<div>
-		            <h1>Nosotros</h1>
-		         </div>
-		         
-		               Scotiabank fue fundado en 1832 en Halifax, Nueva Escocia, 
-		               y es una de las principales instituciones financieras de Norteamerica. 
-		               Scotiabank es el banco canadiense con mayor presencia internacional y
-		               brinda servicios a cerca de 19millones de clientes en más de 55 países 
-		               del mundo, en América, El Caribe, Europa y Asia.
-		           
-		            <h2 >Emmanuel Garrido Garcia - Arquitecto</h2>
-		         
-			<button class"cerrar" name="close">x</button>
-		</div>
-
-		<div class="popup">
-				<div>
-		            <h1>Mapa</h1>
-		         </div>
-		         
-		               XXX
-		         
-			<button class"cerrar" name="close">x</button>
-		</div>
-
+	
 
 
    </body>
