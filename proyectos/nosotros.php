@@ -12,9 +12,7 @@
 		<noscript><link rel="stylesheet" href="contacto/css/noscript.css" /></noscript>
 	</head>
 	
-	<div class="barracentro azul">
-       <a href="portafolio.php"> <img  style="margin-left:10px;" alt="ECO" src="/eco/images/eco-ico-white.png" /></a>
-    </div>
+	<a href="portafolio.php" > <img style="margin: 1em !important" alt="ECO" src="/eco/images/eco-ico-white.png" />
 	  
 	<body class="is-loading">
 
@@ -73,6 +71,7 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
+
 
 	</body>
 </html>

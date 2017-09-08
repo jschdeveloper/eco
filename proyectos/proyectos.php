@@ -53,7 +53,10 @@
 </head>
 
 <body>
-	 <div class="barracentro azul">
+	  <div class="barracentro azul" style="vertical-align: middle;position:relative;" >
+       <a href="#" onclick="backHome('..');"> <img  style="vertical-align: middle;position:relative;" alt="ECO" src="/eco/images/eco-ico-white.png" />
+         
+
          <a class="txt_top" target="_blank" href="https://facebook.com/estudiocolectivodearquitectura/">
          <img alt="Facebook" src="assets/imgs/fbicon.png" >
          </a>
@@ -63,17 +66,16 @@
          <a class="txt_top" target="_blank" href="#">
          <img alt="Twitter" src="assets/imgs/twicon.png" >
          </a>
-         <a class="txt_top" href="#popup-contacto" data-rel="popup" data-position-to="window" data-transition="fade">
+         <a class="txt_top" href="./nosotros.php" target="_self">
          <img alt="Contacto" src="assets/imgs/mail.png" >
          </a>
-         <a class="txt_top" href="./ventas.php" target="_self" data-rel="popup" data-position-to="window" data-transition="fade">
+         <a class="txt_top" href="./ventas.php" target="_self" >
          <img alt="Ventas" src="assets/imgs/sell.png" >
          </a>
-         <a class="txt_top"  href="#popup-eco" data-rel="popup" data-position-to="window" data-transition="fade">
+         <a class="txt_top"   href="./contacto.php" target="_self">
          <img alt="Información" src="assets/imgs/info.png" >
          </a>
-         <a href="#" onclick="backHome('..');"> <img  style="margin-left:10px;" alt="ECO" src="/eco2/images/eco-ico-white.png" >
-         <a/>
+        
       </div>
 
   <div class="container">

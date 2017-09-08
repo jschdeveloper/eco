@@ -10,25 +10,32 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="contacto/css/noscript.css" /></noscript>
-		<style>
-		   #map {
-			height: 400px;
-			width: 100%;
-		   }
-		</style>
+      <link rel="stylesheet" type="text/css" href="css/barra.css">
 	</head>
 
-	<div class="barracentro azul">
-       <a href="portafolio.php"> 
-			<img  style="margin-left:10px;" alt="ECO" src="/eco/images/eco-ico-white.png" />
-		</a>        
-    </div>
+	
+       <a href="portafolio.php" > <img style="margin: 1em !important" alt="ECO" src="/eco/images/eco-ico-white.png" />
+    
 	<body>
 		<div id="wrapper">
-			<section id="main">
-				<div id="map"></div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.293780003946!2d-96.91736258511996!3d19.528996986829625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db32022c7b5f13%3A0xb3880c86b005cf3!2sEstudio+Colectivo+de+Arquitectura!5e0!3m2!1ses!2smx!4v1504852837948" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</section>
+		<h2>Dirección</h2>
+		<h3>Santos Degollado no.3 int. 9 Col. Centro Xalapa</h3>
+		
+		<h2>Teléfonos</h2>
+		<h3>22-88-00-27-85</h3>
+		
+		<h2>Correos</h2>
+		<h3>Eder Esau Valderrabano</h3>
+		<h3>eder.valderrabano@gmail.com</h3>
+		<h3>Emmanuel Garrido</h3>
+		<h3>emanuel@gmail.com</h3>
+		
+		<section id="main">
+			<div id="mapa"></div>
+			<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.293780003946!2d-96.91736258511996!3d19.528996986829625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db32022c7b5f13%3A0xb3880c86b005cf3!2sEstudio+Colectivo+de+Arquitectura!5e0!3m2!1ses!2smx!4v1504852837948"
+			frameborder="0" style="border:0"></iframe>
+		</section>
+		
 		</div>			
 	</body>
 </html>

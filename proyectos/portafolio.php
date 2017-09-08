@@ -23,9 +23,6 @@
       <script type="text/javascript" src="js/jquery.googlemap.js"></script>
 	  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
-		<script type="text/javascript" src="//www.google.fr/jsapi"></script>
-		<script type="text/javascript" src="js/jquery.googlemap.js"></script>
   
 
       <script type="text/javascript" language="javascript">
@@ -43,8 +40,8 @@
    </head>
       <header></header>
 	  <body>
-      <div class="barracentro azul">
-       <a href="#" onclick="backHome('..');"> <img  style="margin-left:10px;" alt="ECO" src="/eco/images/eco-ico-white.png" />
+      <div class="barracentro azul" style="vertical-align: middle;position:relative;" >
+       <a href="#" onclick="backHome('..');"> <img  style="vertical-align: middle;position:relative;" alt="ECO" src="/eco/images/eco-ico-white.png" />
          
 
          <a class="txt_top" target="_blank" href="https://facebook.com/estudiocolectivodearquitectura/">
