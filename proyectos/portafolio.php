@@ -12,7 +12,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
       <link rel="stylesheet" type="text/css" href="css/reset.css">
       <link rel="stylesheet" type="text/css" href="css/main.css">
-      ">
+      
       <link rel="stylesheet" type="text/css" href="css/barra.css">
       <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Asap|Gudea:400,400italic,700">
       <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
@@ -21,6 +21,11 @@
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
       <script type="text/javascript" src="//www.google.fr/jsapi"></script>
       <script type="text/javascript" src="js/jquery.googlemap.js"></script>
+	  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
+		<script type="text/javascript" src="//www.google.fr/jsapi"></script>
+		<script type="text/javascript" src="js/jquery.googlemap.js"></script>
   
 
       <script type="text/javascript" language="javascript">
